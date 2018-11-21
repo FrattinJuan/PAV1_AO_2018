@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetAportesXOdontologo" targetNamespace="http://tempuri.org/DataSetAportesXOdontologo.xsd" xmlns:mstns="http://tempuri.org/DataSetAportesXOdontologo.xsd" xmlns="http://tempuri.org/DataSetAportesXOdontologo.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetAportesXOdontologo" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetAportesXOdontologo" msprop:Generator_UserDSName="DataSetAportesXOdontologo">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="aportXodo" msprop:Generator_TableClassName="aportXodoDataTable" msprop:Generator_TableVarName="tableaportXodo" msprop:Generator_TablePropName="aportXodo" msprop:Generator_RowDeletingName="aportXodoRowDeleting" msprop:Generator_RowChangingName="aportXodoRowChanging" msprop:Generator_RowEvHandlerName="aportXodoRowChangeEventHandler" msprop:Generator_RowDeletedName="aportXodoRowDeleted" msprop:Generator_UserTableName="aportXodo" msprop:Generator_RowChangedName="aportXodoRowChanged" msprop:Generator_RowEvArgName="aportXodoRowChangeEvent" msprop:Generator_RowClassName="aportXodoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Odontologo" msprop:Generator_ColumnVarNameInTable="columnOdontologo" msprop:Generator_ColumnPropNameInRow="Odontologo" msprop:Generator_ColumnPropNameInTable="OdontologoColumn" msprop:Generator_UserColumnName="Odontologo" type="xs:string" minOccurs="0" />
+              <xs:element name="Aporte" msprop:Generator_ColumnVarNameInTable="columnAporte" msprop:Generator_ColumnPropNameInRow="Aporte" msprop:Generator_ColumnPropNameInTable="AporteColumn" msprop:Generator_UserColumnName="Aporte" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

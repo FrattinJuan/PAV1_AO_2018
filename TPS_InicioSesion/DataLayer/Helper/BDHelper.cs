@@ -7,13 +7,11 @@ using System.Data;
 using System.Data.SqlClient;
 
 // Se debe usar todo bajo el mismo namespace
-using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Data.SqlClient;
+
 public class BDHelper
 {
-    private string string_conexion = "Data Source=DESKTOP-QJRDUHS;Initial Catalog=PAV1_AO_2018;Integrated Security=True";
+    private string string_conexion = @"Data Source=DESKTOP-QJRDUHS;Initial Catalog=PAV1_AO_2018;Integrated Security=True";
+    // STRING CONEXION DANILO @"Data Source=localhost\SQLEXPRESS;Initial Catalog=PAV1_AO_2018;User ID=sa;Password=sistemas2018"
 
     private static BDHelper instance; //Unica instancia de la clase
     public static BDHelper getBDHelper()

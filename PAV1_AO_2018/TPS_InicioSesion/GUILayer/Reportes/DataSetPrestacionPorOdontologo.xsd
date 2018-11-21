@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetPrestacionPorOdontologo" targetNamespace="http://tempuri.org/DataSetPrestacionPorOdontologo.xsd" xmlns:mstns="http://tempuri.org/DataSetPrestacionPorOdontologo.xsd" xmlns="http://tempuri.org/DataSetPrestacionPorOdontologo.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetPrestacionPorOdontologo" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetPrestacionPorOdontologo" msprop:Generator_UserDSName="DataSetPrestacionPorOdontologo">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="prestacionXodontolgo" msprop:Generator_TableClassName="prestacionXodontolgoDataTable" msprop:Generator_TableVarName="tableprestacionXodontolgo" msprop:Generator_TablePropName="prestacionXodontolgo" msprop:Generator_RowDeletingName="prestacionXodontolgoRowDeleting" msprop:Generator_RowChangingName="prestacionXodontolgoRowChanging" msprop:Generator_RowEvHandlerName="prestacionXodontolgoRowChangeEventHandler" msprop:Generator_RowDeletedName="prestacionXodontolgoRowDeleted" msprop:Generator_UserTableName="prestacionXodontolgo" msprop:Generator_RowChangedName="prestacionXodontolgoRowChanged" msprop:Generator_RowEvArgName="prestacionXodontolgoRowChangeEvent" msprop:Generator_RowClassName="prestacionXodontolgoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="prestacion" msprop:Generator_ColumnVarNameInTable="columnprestacion" msprop:Generator_ColumnPropNameInRow="prestacion" msprop:Generator_ColumnPropNameInTable="prestacionColumn" msprop:Generator_UserColumnName="prestacion" type="xs:string" minOccurs="0" />
+              <xs:element name="cantidad" msprop:Generator_ColumnVarNameInTable="columncantidad" msprop:Generator_ColumnPropNameInRow="cantidad" msprop:Generator_ColumnPropNameInTable="cantidadColumn" msprop:Generator_UserColumnName="cantidad" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

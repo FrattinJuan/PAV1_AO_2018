@@ -48,12 +48,39 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BusinessLayer\Entities\Paciente.cs" />
+    <Compile Include="BusinessLayer\Entities\Prestacion.cs" />
     <Compile Include="BusinessLayer\Entities\Usuario.cs" />
     <Compile Include="BusinessLayer\Services\PacienteService.cs" />
+    <Compile Include="BusinessLayer\Services\PrestacionService.cs" />
     <Compile Include="BusinessLayer\Services\UsuarioService.cs" />
     <Compile Include="DataLayer\DAOs\PacienteDao.cs" />
+    <Compile Include="DataLayer\DAOs\PrestacionDao.cs" />
     <Compile Include="DataLayer\DAOs\UsuarioDao.cs" />
     <Compile Include="DataLayer\Helper\BDHelper.cs" />
+    <Compile Include="GUILayer\frmBuscarOdontologos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUILayer\frmBuscarOdontologos.Designer.cs">
+      <DependentUpon>frmBuscarOdontologos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUILayer\frmBuscarPacientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUILayer\frmBuscarPacientes.designer.cs">
+      <DependentUpon>frmBuscarPacientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUILayer\frmElemento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUILayer\frmElemento.Designer.cs">
+      <DependentUpon>frmElemento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUILayer\frmHistorialMedico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUILayer\frmHistorialMedico.Designer.cs">
+      <DependentUpon>frmHistorialMedico.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUILayer\frmABMPacientes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,7 +90,7 @@
     <Compile Include="GUILayer\frmABMPrestaciones.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GUILayer\frmABMPrestaciones.Designer.cs">
+    <Compile Include="GUILayer\frmABMPrestaciones.designer.cs">
       <DependentUpon>frmABMPrestaciones.cs</DependentUpon>
     </Compile>
     <Compile Include="GUILayer\frmNuevoOdontologo.cs">
@@ -93,7 +120,7 @@
     <Compile Include="GUILayer\frmPrestacion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GUILayer\frmPrestacion.Designer.cs">
+    <Compile Include="GUILayer\frmPrestacion.designer.cs">
       <DependentUpon>frmPrestacion.cs</DependentUpon>
     </Compile>
     <Compile Include="GUILayer\frmPrincipal.cs">
@@ -104,6 +131,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUILayer\frmBuscarOdontologos.resx">
+      <DependentUpon>frmBuscarOdontologos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUILayer\frmBuscarPacientes.resx">
+      <DependentUpon>frmBuscarPacientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUILayer\frmElemento.resx">
+      <DependentUpon>frmElemento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUILayer\frmHistorialMedico.resx">
+      <DependentUpon>frmHistorialMedico.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUILayer\frmABMPacientes.resx">
       <DependentUpon>frmABMPacientes.cs</DependentUpon>
     </EmbeddedResource>
@@ -151,7 +190,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="GUILayer\App.config" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

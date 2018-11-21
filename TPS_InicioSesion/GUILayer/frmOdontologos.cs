@@ -110,7 +110,7 @@ namespace PAV1_AO_2018.GUILayer
         {
             dgvUsers.Rows.Clear();
             foreach (Usuario oUsuario in source)
-                dgvUsers.Rows.Add(new string[] { oUsuario.id_usuario.ToString(), oUsuario.password, oUsuario.nombreUsuario,  oUsuario.perfil, oUsuario.tipoDocumento, oUsuario.nroDocumento,  oUsuario.nroMatricula, oUsuario.telefono, oUsuario.email ,oUsuario.id_perfil });
+                dgvUsers.Rows.Add(new string[] { oUsuario.id_usuario.ToString(), oUsuario.password, oUsuario.nombreUsuario,  oUsuario.perfil, oUsuario.tipoDocumento, oUsuario.nroDocumento,  oUsuario.nroMatricula, oUsuario.telefono, oUsuario.email ,oUsuario.id_perfil, oUsuario.estado});
         }
 
         private void btnEditar_Click(System.Object sender, System.EventArgs e)
@@ -147,6 +147,7 @@ namespace PAV1_AO_2018.GUILayer
             oUsuario.nroMatricula = dgvUsers.CurrentRow.Cells["col_nroMatricula"].Value.ToString();
             oUsuario.telefono = dgvUsers.CurrentRow.Cells["col_telefono"].Value.ToString();
             oUsuario.email = dgvUsers.CurrentRow.Cells["col_email"].Value.ToString();
+            oUsuario.estado = dgvUsers.CurrentRow.Cells["col_estado"].Value.ToString();
             
 
             //oUsuario.id_perfil = dgvUsers.CurrentRow.Cells["id_perfil_col"].Value.ToString();
@@ -157,5 +158,7 @@ namespace PAV1_AO_2018.GUILayer
         {
 
         }
+
+       
     }
 }

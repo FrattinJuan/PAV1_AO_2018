@@ -1,4 +1,4 @@
-﻿using PAV1_AO_2018.GUI;
+﻿using PAV1_AO_2018.GUILayer;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -49,6 +49,21 @@ namespace PAV1_AO_2018
         private void btnPaciente_Click(object sender, EventArgs e)
         {
             new GUILayer.frmPaciente().ShowDialog();
+        }
+
+        private void btnPrestaciones_Click(object sender, EventArgs e)
+        {
+            new GUILayer.frmPrestacion().ShowDialog();
+        }
+
+        private void btnHistorialMedico_Click(object sender, EventArgs e)
+        {
+            new frmHistorialMedico().ShowDialog();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

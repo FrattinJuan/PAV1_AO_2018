@@ -1,4 +1,4 @@
-﻿namespace PAV1_AO_2018.GUI
+﻿namespace PAV1_AO_2018.GUILayer
 {
     partial class frmPrestacion
     {
@@ -29,6 +29,10 @@
         private void InitializeComponent()
         {
             this.dgvPrestacion = new System.Windows.Forms.DataGridView();
+            this.col_id_prestacion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.col_nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.col_cod_prestacion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.col_descripcion = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lblnom = new System.Windows.Forms.Label();
             this.lblcodi = new System.Windows.Forms.Label();
             this.txtnom = new System.Windows.Forms.TextBox();
@@ -43,32 +47,64 @@
             // 
             // dgvPrestacion
             // 
+            this.dgvPrestacion.AllowUserToAddRows = false;
+            this.dgvPrestacion.AllowUserToDeleteRows = false;
             this.dgvPrestacion.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvPrestacion.Location = new System.Drawing.Point(54, 118);
+            this.dgvPrestacion.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.col_id_prestacion,
+            this.col_nombre,
+            this.col_cod_prestacion,
+            this.col_descripcion});
+            this.dgvPrestacion.Location = new System.Drawing.Point(-1, 118);
             this.dgvPrestacion.Name = "dgvPrestacion";
-            this.dgvPrestacion.Size = new System.Drawing.Size(325, 179);
+            this.dgvPrestacion.ReadOnly = true;
+            this.dgvPrestacion.Size = new System.Drawing.Size(424, 179);
             this.dgvPrestacion.TabIndex = 0;
             this.dgvPrestacion.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // col_id_prestacion
+            // 
+            this.col_id_prestacion.HeaderText = "ID";
+            this.col_id_prestacion.Name = "col_id_prestacion";
+            this.col_id_prestacion.ReadOnly = true;
+            // 
+            // col_nombre
+            // 
+            this.col_nombre.HeaderText = "Nombre";
+            this.col_nombre.Name = "col_nombre";
+            this.col_nombre.ReadOnly = true;
+            // 
+            // col_cod_prestacion
+            // 
+            this.col_cod_prestacion.HeaderText = "Codigo Prestacion";
+            this.col_cod_prestacion.Name = "col_cod_prestacion";
+            this.col_cod_prestacion.ReadOnly = true;
+            // 
+            // col_descripcion
+            // 
+            this.col_descripcion.HeaderText = "Descripciòn";
+            this.col_descripcion.Name = "col_descripcion";
+            this.col_descripcion.ReadOnly = true;
             // 
             // lblnom
             // 
             this.lblnom.AutoSize = true;
-            this.lblnom.Font = new System.Drawing.Font("Century", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblnom.Location = new System.Drawing.Point(25, 33);
+            this.lblnom.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblnom.Location = new System.Drawing.Point(22, 27);
             this.lblnom.Name = "lblnom";
-            this.lblnom.Size = new System.Drawing.Size(49, 15);
+            this.lblnom.Size = new System.Drawing.Size(54, 16);
             this.lblnom.TabIndex = 1;
-            this.lblnom.Text = "Nombre";
+            this.lblnom.Text = "Nombre:";
             // 
             // lblcodi
             // 
             this.lblcodi.AutoSize = true;
-            this.lblcodi.Font = new System.Drawing.Font("Century", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblcodi.Location = new System.Drawing.Point(25, 62);
+            this.lblcodi.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblcodi.Location = new System.Drawing.Point(23, 64);
             this.lblcodi.Name = "lblcodi";
-            this.lblcodi.Size = new System.Drawing.Size(42, 15);
+            this.lblcodi.Size = new System.Drawing.Size(51, 16);
             this.lblcodi.TabIndex = 2;
-            this.lblcodi.Text = "Codigo";
+            this.lblcodi.Text = "Código:";
             // 
             // txtnom
             // 
@@ -86,12 +122,14 @@
             // 
             // btnconsu
             // 
+            this.btnconsu.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnconsu.Location = new System.Drawing.Point(213, 89);
             this.btnconsu.Name = "btnconsu";
             this.btnconsu.Size = new System.Drawing.Size(75, 23);
             this.btnconsu.TabIndex = 5;
             this.btnconsu.Text = "Consultar";
             this.btnconsu.UseVisualStyleBackColor = true;
+            this.btnconsu.Click += new System.EventHandler(this.btnconsu_Click);
             // 
             // bteditar
             // 
@@ -140,7 +178,7 @@
             // frmPrestacion
             // 
             this.BackColor = System.Drawing.Color.PaleGoldenrod;
-            this.ClientSize = new System.Drawing.Size(420, 364);
+            this.ClientSize = new System.Drawing.Size(687, 364);
             this.Controls.Add(this.chktodos);
             this.Controls.Add(this.bteliminar);
             this.Controls.Add(this.btnuevo);
@@ -181,5 +219,9 @@
         private System.Windows.Forms.Button btnuevo;
         private System.Windows.Forms.Button bteliminar;
         private System.Windows.Forms.CheckBox chktodos;
+        private System.Windows.Forms.DataGridViewTextBoxColumn col_id_prestacion;
+        private System.Windows.Forms.DataGridViewTextBoxColumn col_nombre;
+        private System.Windows.Forms.DataGridViewTextBoxColumn col_cod_prestacion;
+        private System.Windows.Forms.DataGridViewTextBoxColumn col_descripcion;
     }
 }
