@@ -65,5 +65,11 @@ namespace PAV1_AO_2018
         {
 
         }
+
+        private void btnReporte_Click(object sender, EventArgs e)
+        {
+           
+            new frmReportes().ShowDialog();
+        }
     }
 }

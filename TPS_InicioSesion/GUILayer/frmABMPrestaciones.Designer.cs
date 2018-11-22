@@ -32,9 +32,9 @@
             this.lblNombre = new System.Windows.Forms.Label();
             this.lblCodigo = new System.Windows.Forms.Label();
             this.lbldescripcion = new System.Windows.Forms.Label();
-            this.txtNombre = new System.Windows.Forms.TextBox();
-            this.txtDescripcion = new System.Windows.Forms.TextBox();
-            this.txtCodigoPrestacion = new System.Windows.Forms.TextBox();
+            this.txtnombre = new System.Windows.Forms.TextBox();
+            this.txtdescripcion = new System.Windows.Forms.TextBox();
+            this.txtcodigo = new System.Windows.Forms.TextBox();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.btnAceptar = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -80,26 +80,26 @@
             this.lbldescripcion.TabIndex = 3;
             this.lbldescripcion.Text = "Descripcion";
             // 
-            // txtNombre
+            // txtnombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(82, 54);
-            this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(98, 20);
-            this.txtNombre.TabIndex = 4;
+            this.txtnombre.Location = new System.Drawing.Point(82, 54);
+            this.txtnombre.Name = "txtnombre";
+            this.txtnombre.Size = new System.Drawing.Size(98, 20);
+            this.txtnombre.TabIndex = 4;
             // 
-            // txtDescripcion
+            // txtdescripcion
             // 
-            this.txtDescripcion.Location = new System.Drawing.Point(82, 127);
-            this.txtDescripcion.Name = "txtDescripcion";
-            this.txtDescripcion.Size = new System.Drawing.Size(98, 20);
-            this.txtDescripcion.TabIndex = 5;
+            this.txtdescripcion.Location = new System.Drawing.Point(82, 127);
+            this.txtdescripcion.Name = "txtdescripcion";
+            this.txtdescripcion.Size = new System.Drawing.Size(98, 20);
+            this.txtdescripcion.TabIndex = 5;
             // 
-            // txtCodigoPrestacion
+            // txtcodigo
             // 
-            this.txtCodigoPrestacion.Location = new System.Drawing.Point(82, 94);
-            this.txtCodigoPrestacion.Name = "txtCodigoPrestacion";
-            this.txtCodigoPrestacion.Size = new System.Drawing.Size(98, 20);
-            this.txtCodigoPrestacion.TabIndex = 6;
+            this.txtcodigo.Location = new System.Drawing.Point(82, 94);
+            this.txtcodigo.Name = "txtcodigo";
+            this.txtcodigo.Size = new System.Drawing.Size(98, 20);
+            this.txtcodigo.TabIndex = 6;
             // 
             // btnCancelar
             // 
@@ -110,7 +110,7 @@
             this.btnCancelar.TabIndex = 7;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
-            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click_1);
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // btnAceptar
             // 
@@ -121,7 +121,7 @@
             this.btnAceptar.TabIndex = 8;
             this.btnAceptar.Text = "Aceptar";
             this.btnAceptar.UseVisualStyleBackColor = true;
-            this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click_1);
+            this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
             // 
             // frmABMPrestaciones
             // 
@@ -131,9 +131,9 @@
             this.ClientSize = new System.Drawing.Size(284, 228);
             this.Controls.Add(this.btnAceptar);
             this.Controls.Add(this.btnCancelar);
-            this.Controls.Add(this.txtCodigoPrestacion);
-            this.Controls.Add(this.txtDescripcion);
-            this.Controls.Add(this.txtNombre);
+            this.Controls.Add(this.txtcodigo);
+            this.Controls.Add(this.txtdescripcion);
+            this.Controls.Add(this.txtnombre);
             this.Controls.Add(this.lbldescripcion);
             this.Controls.Add(this.lblCodigo);
             this.Controls.Add(this.lblNombre);
@@ -152,9 +152,9 @@
         private System.Windows.Forms.Label lblNombre;
         private System.Windows.Forms.Label lblCodigo;
         private System.Windows.Forms.Label lbldescripcion;
-        private System.Windows.Forms.TextBox txtNombre;
-        private System.Windows.Forms.TextBox txtDescripcion;
-        private System.Windows.Forms.TextBox txtCodigoPrestacion;
+        private System.Windows.Forms.TextBox txtnombre;
+        private System.Windows.Forms.TextBox txtdescripcion;
+        private System.Windows.Forms.TextBox txtcodigo;
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.Button btnAceptar;
     }

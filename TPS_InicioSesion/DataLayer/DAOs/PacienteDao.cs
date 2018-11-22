@@ -71,9 +71,9 @@ namespace PAV1_AO_2018.DataLayer.DAOs
             DataTable tabla = new DataTable();
             string str_sql1;
 
-            str_sql1 = "INSERT INTO Odontogramas(descripcion) VALUES('Danilo') ";
+            str_sql1 = "INSERT INTO Odontogramas(descripcion) VALUES('NULL') ";
             BDHelper.getBDHelper().EjecutarSQL(str_sql1);
-            tabla = BDHelper.getBDHelper().ConsultaSQL("SELECT MAX(cod_odontograma) From Odontogramas");
+            tabla = BDHelper.getBDHelper().ConsultaSQL("Select Ident_current('Odontogramas')");
 
             string str_sql;
 
@@ -97,7 +97,6 @@ namespace PAV1_AO_2018.DataLayer.DAOs
             str_sql += oPaciente.obraSocial + "','S','";
             str_sql += tabla.Rows[0][0] + "')";
 
-            MessageBox.Show(str_sql1);
             MessageBox.Show(str_sql);
             MessageBox.Show(tabla.Rows[0][0].ToString());
 

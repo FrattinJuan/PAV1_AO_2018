@@ -52,9 +52,10 @@
             this.dgvClientes.Name = "dgvClientes";
             this.dgvClientes.ReadOnly = true;
             this.dgvClientes.RowTemplate.Height = 28;
-            this.dgvClientes.Size = new System.Drawing.Size(449, 339);
+            this.dgvClientes.Size = new System.Drawing.Size(662, 339);
             this.dgvClientes.TabIndex = 0;
             this.dgvClientes.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvClientes_CellClick);
+            this.dgvClientes.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvClientes_CellContentClick);
             // 
             // col_id_paciente
             // 
@@ -82,7 +83,7 @@
             // 
             // btnListo
             // 
-            this.btnListo.Location = new System.Drawing.Point(95, 371);
+            this.btnListo.Location = new System.Drawing.Point(137, 357);
             this.btnListo.Name = "btnListo";
             this.btnListo.Size = new System.Drawing.Size(96, 43);
             this.btnListo.TabIndex = 1;
@@ -92,7 +93,7 @@
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(251, 371);
+            this.btnCancelar.Location = new System.Drawing.Point(464, 357);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(96, 43);
             this.btnCancelar.TabIndex = 2;
@@ -105,10 +106,14 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PaleGoldenrod;
-            this.ClientSize = new System.Drawing.Size(479, 440);
+            this.ClientSize = new System.Drawing.Size(689, 414);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnListo);
             this.Controls.Add(this.dgvClientes);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(711, 470);
+            this.MinimizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(711, 470);
             this.Name = "frmBuscarPacientes";
             this.Text = "frmBuscarPacientes";
             this.Load += new System.EventHandler(this.frmBuscarPacientes_Load);

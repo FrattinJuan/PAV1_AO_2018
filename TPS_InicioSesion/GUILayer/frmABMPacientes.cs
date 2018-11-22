@@ -10,7 +10,6 @@ using System.Windows.Forms;
 using PAV1_AO_2018.BusinessLayer;
 using PAV1_AO_2018.BusinessLayer.Services;
 
-
 namespace PAV1_AO_2018.GUILayer
 {
     public partial class frmABMPacientes : Form
@@ -38,26 +37,25 @@ namespace PAV1_AO_2018.GUILayer
             Paciente oPaciente;
 
             switch (_action)
-                {
+            {
                 case Opcion.insert:
                     {
                         if (existe_nombre() == false)
                         {
                             if (validar_campos())
                             {
-                      
                                 oPaciente = new Paciente();
                                 oPaciente.nombre = txtNombre.Text;
                                 oPaciente.apellido = txtApellido.Text;
-                                oPaciente.fechaNacimiento = dtpfechaNac.Text;
-                                oPaciente.cod_tipoDoc = cmbTipodoc.SelectedValue.ToString();
+                                //oPaciente.fechaNacimiento = dtpFechaNac.SelectedValue.ToString();
+                                oPaciente.tipoDocumento = cmbTipodoc.SelectedValue.ToString();
                                 oPaciente.nroDocumento = txtNrodoc.Text;
                                 oPaciente.domicilio = txtDomicilio.Text;
                                 oPaciente.telefono = txtTelefono.Text;
                                 oPaciente.obraSocial = txtobraSocial.Text;
                                 oPaciente.estado = "S";
 
-
+                                
                                 if (oPacienteService.crearPaciente(oPaciente))
                                 {
                                     MessageBox.Show("Paciente insertado correctamente!", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -66,7 +64,7 @@ namespace PAV1_AO_2018.GUILayer
                             }
                         }
                         else
-                            MessageBox.Show("Nombre de Paciente encontrado!. Ingrese un nombre diferente", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            MessageBox.Show("Nombre de paciente encontrado!. Ingrese un nombre diferente", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         break;
                     }
 
@@ -76,17 +74,37 @@ namespace PAV1_AO_2018.GUILayer
                         {
                             oPacienteSelected.nombre = txtNombre.Text;
                             oPacienteSelected.apellido = txtApellido.Text;
-                            oPacienteSelected.fechaNacimiento = dtpfechaNac.Text;
-                            oPacienteSelected.cod_tipoDoc = cmbTipodoc.SelectedValue.ToString();
+                            //oPacienteSelected.fechaNacimiento = dtpFechaNac.SelectedValue.ToString();
+                            oPacienteSelected.tipoDocumento = cmbTipodoc.SelectedValue.ToString();
                             oPacienteSelected.nroDocumento = txtNrodoc.Text;
-                            oPacienteSelected.obraSocial = txtobraSocial.Text;
-                            oPacienteSelected.telefono = txtTelefono.Text;
                             oPacienteSelected.domicilio = txtDomicilio.Text;
-                            oPacienteSelected.estado = "S"; 
-                        
+                            oPacienteSelected.telefono = txtTelefono.Text;
+                            oPacienteSelected.obraSocial = txtobraSocial.Text;
+                            oPacienteSelected.estado = "S";
+
                             if (oPacienteService.actualizarPaciente(oPacienteSelected))
                             {
-                                MessageBox.Show("Paciente actualizado!", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                MessageBox.Show("Paciente actualizado! Perrooo!!", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                this.Dispose();
+                            }
+                            else
+                                MessageBox.Show("Error al actualizar el paciente! gil", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        }
+
+                        break;
+                    }
+                case Opcion.delete:
+                    {
+                        if (MessageBox.Show("Seguro que desea habilitar/deshabilitar el paciente seleccionado?", "Aviso", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+                        {
+                            if (oPacienteSelected.estado == "N")
+                                oPacienteSelected.estado = "S";
+                            else
+                                oPacienteSelected.estado = "N";
+
+                            if (oPacienteService.modificarEstadoPaciente(oPacienteSelected))
+                            {
+                                MessageBox.Show("Paciente Habilitado/Deshabilitado!", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
                                 this.Dispose();
                             }
                             else
@@ -95,39 +113,21 @@ namespace PAV1_AO_2018.GUILayer
 
                         break;
                     }
-                case Opcion.delete:
-                    {
-                        if (MessageBox.Show("Seguro que desea deshabilitar el Paciente seleccionado?", "Aviso", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
-                        {
-                            oPacienteSelected.nombre = txtNombre.Text;
-                            oPacienteSelected.apellido = txtApellido.Text;
-                            oPacienteSelected.fechaNacimiento = dtpfechaNac.Text;
-                            oPacienteSelected.cod_tipoDoc = cmbTipodoc.SelectedValue.ToString();
-                            oPacienteSelected.nroDocumento = txtNrodoc.Text;
-                            oPacienteSelected.obraSocial = txtobraSocial.Text;
-                            oPacienteSelected.telefono = txtTelefono.Text;
-                            oPacienteSelected.domicilio = txtDomicilio.Text;
-                            oPacienteSelected.estado = "N";
-
-                            if (oPacienteService.modificarEstadoPaciente(oPacienteSelected))
-                            {
-                                MessageBox.Show("Paciente Deshabilitado!", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                                this.Dispose();
-                            }
-                            else
-                                MessageBox.Show("Error a deshabilitar el Paciente!", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        }
-
-                        break;
-                    }
             }
+
+
         }
+
+
         private void btnSalir_Click(object sender, EventArgs e)
         {
-           this.Close();
+            this.Close();
         }
 
-       
+        private void cbxTipodoc_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
 
         private void frmABMPacientes_Load(object sender, EventArgs e)
         {
@@ -146,7 +146,7 @@ namespace PAV1_AO_2018.GUILayer
                         mostrar_datos();
                         txtNombre.Enabled = true;
                         txtApellido.Enabled = true;
-                        dtpfechaNac.Enabled = true;
+                        dtpFechaNac.Enabled = true;
                         txtNrodoc.Enabled = true;
                         cmbTipodoc.Enabled = true;
                         txtDomicilio.Enabled = true;
@@ -161,7 +161,7 @@ namespace PAV1_AO_2018.GUILayer
                         this.Text = "Habilitar/Deshabilitar Paciente";
                         txtNombre.Enabled = false;
                         txtApellido.Enabled = false;
-                        dtpfechaNac.Enabled = false;
+                        dtpFechaNac.Enabled = false;
                         txtNrodoc.Enabled = false;
                         cmbTipodoc.Enabled = false;
                         txtDomicilio.Enabled = false;
@@ -184,9 +184,9 @@ namespace PAV1_AO_2018.GUILayer
             {
                 txtNombre.Text = oPacienteSelected.nombre;
                 txtApellido.Text = oPacienteSelected.apellido;
-                dtpfechaNac.Text = oPacienteSelected.fechaNacimiento;
+                //dtpFechaNac.Text = oPacienteSelected.fechaNacimiento;
                 txtNrodoc.Text = oPacienteSelected.nroDocumento;
-                cmbTipodoc.Text = oPacienteSelected.cod_tipoDoc;
+                cmbTipodoc.Text = oPacienteSelected.tipoDocumento;
                 txtDomicilio.Text = oPacienteSelected.domicilio;
                 txtTelefono.Text = oPacienteSelected.telefono;
                 txtobraSocial.Text = oPacienteSelected.obraSocial;

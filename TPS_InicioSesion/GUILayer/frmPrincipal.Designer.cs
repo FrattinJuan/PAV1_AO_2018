@@ -39,6 +39,7 @@
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.btnReporte = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -56,8 +57,8 @@
             // btnOdontologo
             // 
             this.btnOdontologo.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.btnOdontologo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOdontologo.Location = new System.Drawing.Point(49, 118);
+            this.btnOdontologo.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOdontologo.Location = new System.Drawing.Point(34, 118);
             this.btnOdontologo.Name = "btnOdontologo";
             this.btnOdontologo.Size = new System.Drawing.Size(129, 36);
             this.btnOdontologo.TabIndex = 1;
@@ -67,7 +68,7 @@
             // 
             // btnPaciente
             // 
-            this.btnPaciente.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPaciente.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPaciente.Location = new System.Drawing.Point(254, 118);
             this.btnPaciente.Name = "btnPaciente";
             this.btnPaciente.Size = new System.Drawing.Size(113, 36);
@@ -79,7 +80,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(95, 31);
+            this.pictureBox1.Location = new System.Drawing.Point(71, 31);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(68, 89);
             this.pictureBox1.TabIndex = 3;
@@ -96,8 +97,8 @@
             // 
             // btnPrestaciones
             // 
-            this.btnPrestaciones.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPrestaciones.Location = new System.Drawing.Point(236, 252);
+            this.btnPrestaciones.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPrestaciones.Location = new System.Drawing.Point(229, 252);
             this.btnPrestaciones.Name = "btnPrestaciones";
             this.btnPrestaciones.Size = new System.Drawing.Size(157, 36);
             this.btnPrestaciones.TabIndex = 5;
@@ -107,10 +108,10 @@
             // 
             // btnHistorialMedico
             // 
-            this.btnHistorialMedico.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHistorialMedico.Location = new System.Drawing.Point(50, 241);
+            this.btnHistorialMedico.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHistorialMedico.Location = new System.Drawing.Point(34, 241);
             this.btnHistorialMedico.Name = "btnHistorialMedico";
-            this.btnHistorialMedico.Size = new System.Drawing.Size(113, 58);
+            this.btnHistorialMedico.Size = new System.Drawing.Size(129, 58);
             this.btnHistorialMedico.TabIndex = 6;
             this.btnHistorialMedico.Text = "Historiales Medicos";
             this.btnHistorialMedico.UseVisualStyleBackColor = true;
@@ -136,12 +137,24 @@
             this.pictureBox4.TabIndex = 8;
             this.pictureBox4.TabStop = false;
             // 
+            // btnReporte
+            // 
+            this.btnReporte.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReporte.Location = new System.Drawing.Point(152, 336);
+            this.btnReporte.Name = "btnReporte";
+            this.btnReporte.Size = new System.Drawing.Size(103, 30);
+            this.btnReporte.TabIndex = 9;
+            this.btnReporte.Text = "Reportes";
+            this.btnReporte.UseVisualStyleBackColor = true;
+            this.btnReporte.Click += new System.EventHandler(this.btnReporte_Click);
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PaleGoldenrod;
             this.ClientSize = new System.Drawing.Size(423, 393);
+            this.Controls.Add(this.btnReporte);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.btnHistorialMedico);
@@ -153,7 +166,7 @@
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmPrincipal";
-            this.Text = "menuPrincipal";
+            this.Text = "Inicio";
             this.Load += new System.EventHandler(this.frmPrincipal_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -176,5 +189,6 @@
         private System.Windows.Forms.ColorDialog colorDialog1;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Button btnReporte;
     }
 }

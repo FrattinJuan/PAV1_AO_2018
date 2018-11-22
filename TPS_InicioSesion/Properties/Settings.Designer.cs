@@ -22,5 +22,26 @@ namespace PAV1_AO_2018.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=localhost\\SQLEXPRESS;Initial Catalog=PAV1_AO_2018;User ID=sa")]
+        public string PAV1_AO_2018ConnectionString {
+            get {
+                return ((string)(this["PAV1_AO_2018ConnectionString"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-MJ5VODP;Initial Catalog=PAV1_AO2_2018;Integrated Security=Tru" +
+            "e")]
+        public string PAV1_AO2_2018ConnectionString {
+            get {
+                return ((string)(this["PAV1_AO2_2018ConnectionString"]));
+            }
+        }
     }
 }

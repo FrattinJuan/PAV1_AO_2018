@@ -111,6 +111,7 @@ namespace PAV1_AO_2018.GUILayer
             dgvUsers.Rows.Clear();
             foreach (Usuario oUsuario in source)
                 dgvUsers.Rows.Add(new string[] { oUsuario.id_usuario.ToString(), oUsuario.password, oUsuario.nombreUsuario,  oUsuario.perfil, oUsuario.tipoDocumento, oUsuario.nroDocumento,  oUsuario.nroMatricula, oUsuario.telefono, oUsuario.email ,oUsuario.id_perfil, oUsuario.estado});
+                
         }
 
         private void btnEditar_Click(System.Object sender, System.EventArgs e)
@@ -158,7 +159,5 @@ namespace PAV1_AO_2018.GUILayer
         {
 
         }
-
-       
     }
 }

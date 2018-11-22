@@ -38,6 +38,7 @@ C:\Users\fratt\OneDrive\Documents\UTN\3° Año\PAV1\PROYECTO\PAV1_AO_2018\TPS_In
 C:\Users\fratt\OneDrive\Documents\UTN\3° Año\PAV1\PROYECTO\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.GUILayer.frmOdontologos.resources
 C:\Users\fratt\OneDrive\Documents\UTN\3° Año\PAV1\PROYECTO\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.frmLogin.resources
 C:\Users\fratt\OneDrive\Documents\UTN\3° Año\PAV1\PROYECTO\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.GUILayer.frmPaciente.resources
+C:\Users\fratt\OneDrive\Documents\UTN\3° Año\PAV1\PROYECTO\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.GUI.frmPrestacion.resources
 C:\Users\fratt\OneDrive\Documents\UTN\3° Año\PAV1\PROYECTO\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.frmPrincipal.resources
 C:\Users\fratt\OneDrive\Documents\UTN\3° Año\PAV1\PROYECTO\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.Properties.Resources.resources
 C:\Users\fratt\OneDrive\Documents\UTN\3° Año\PAV1\PROYECTO\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.csproj.GenerateResource.cache
@@ -90,7 +91,6 @@ C:\Users\Usuario\Desktop\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.GU
 C:\Users\Danilo\Downloads\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.GUILayer.frmPrestacion.resources
 C:\Users\Danilo\Downloads\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.BuscarOdontologos.resources
 C:\Users\Danilo\Downloads\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.frmBuscarPacientes.resources
-C:\Users\Danilo\Downloads\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.GUILayer.frmElemento.resources
 C:\Users\Danilo\Downloads\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.frmHistorialMedico.resources
 D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\Git\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\PAV1_AO_2018.exe.config
 D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\Git\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\PAV1_AO_2018.exe
@@ -133,8 +133,244 @@ C:\Users\Danilo\Downloads\Proyecto\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_
 C:\Users\Danilo\Downloads\Proyecto\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.frmPrincipal.resources
 C:\Users\Danilo\Downloads\Proyecto\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.Properties.Resources.resources
 C:\Users\Danilo\Downloads\Proyecto\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.csproj.GenerateResource.Cache
-C:\Users\fratt\OneDrive\Documents\UTN\3° Año\PAV1\PROYECTO\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.BuscarOdontologos.resources
-C:\Users\fratt\OneDrive\Documents\UTN\3° Año\PAV1\PROYECTO\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.frmBuscarPacientes.resources
-C:\Users\fratt\OneDrive\Documents\UTN\3° Año\PAV1\PROYECTO\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.GUILayer.frmElemento.resources
-C:\Users\fratt\OneDrive\Documents\UTN\3° Año\PAV1\PROYECTO\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.frmHistorialMedico.resources
-C:\Users\fratt\OneDrive\Documents\UTN\3° Año\PAV1\PROYECTO\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.GUILayer.frmPrestacion.resources
+C:\Users\Danilo\Downloads\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.GUILayer.Reportes.Reporte.resources
+C:\Users\Danilo\Downloads\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\RdlCompile.cache
+C:\Users\Danilo\Downloads\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\RdlCompile.compiled
+C:\Users\Danilo\Documents\3k1 UTN\Pav 1\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\PAV1_AO_2018.exe.config
+C:\Users\Danilo\Documents\3k1 UTN\Pav 1\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.exe
+C:\Users\Danilo\Documents\3k1 UTN\Pav 1\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.pdb
+C:\Users\Danilo\Documents\3k1 UTN\Pav 1\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\PAV1_AO_2018.exe
+C:\Users\Danilo\Documents\3k1 UTN\Pav 1\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\PAV1_AO_2018.pdb
+C:\Users\Danilo\Documents\3k1 UTN\Pav 1\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.csprojResolveAssemblyReference.cache
+C:\Users\Danilo\Documents\3k1 UTN\Pav 1\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.BuscarOdontologos.resources
+C:\Users\Danilo\Documents\3k1 UTN\Pav 1\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.frmBuscarPacientes.resources
+C:\Users\Danilo\Documents\3k1 UTN\Pav 1\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.frmHistorialMedico.resources
+C:\Users\Danilo\Documents\3k1 UTN\Pav 1\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.GUILayer.frmABMPacientes.resources
+C:\Users\Danilo\Documents\3k1 UTN\Pav 1\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.GUILayer.frmABMPrestaciones.resources
+C:\Users\Danilo\Documents\3k1 UTN\Pav 1\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.GUILayer.frmNuevoOdontologo.resources
+C:\Users\Danilo\Documents\3k1 UTN\Pav 1\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.GUILayer.frmOdontologos.resources
+C:\Users\Danilo\Documents\3k1 UTN\Pav 1\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.frmLogin.resources
+C:\Users\Danilo\Documents\3k1 UTN\Pav 1\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.GUILayer.frmPaciente.resources
+C:\Users\Danilo\Documents\3k1 UTN\Pav 1\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.GUILayer.frmPrestacion.resources
+C:\Users\Danilo\Documents\3k1 UTN\Pav 1\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.frmPrincipal.resources
+C:\Users\Danilo\Documents\3k1 UTN\Pav 1\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.Properties.Resources.resources
+C:\Users\Danilo\Documents\3k1 UTN\Pav 1\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.csproj.GenerateResource.Cache
+C:\Users\Danilo\Documents\3k1 UTN\Pav 1\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\RdlCompile.cache
+C:\Users\Danilo\Documents\3k1 UTN\Pav 1\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\RdlCompile.compiled
+C:\Users\Danilo\Documents\3k1 UTN\Pav 1\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.GUILayer.Reportes.ReporteHistorial.resources
+C:\Users\Usuario\Desktop\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.BuscarOdontologos.resources
+C:\Users\Usuario\Desktop\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.frmBuscarPacientes.resources
+C:\Users\Usuario\Desktop\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.frmHistorialMedico.resources
+C:\Users\Usuario\Desktop\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.GUILayer.Reportes.ReporteHistorial.resources
+C:\Users\Usuario\Desktop\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\RdlCompile.cache
+C:\Users\Usuario\Desktop\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\RdlCompile.compiled
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.BuscarOdontologos.resources
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.frmBuscarPacientes.resources
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.frmHistorialMedico.resources
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.GUILayer.frmABMPacientes.resources
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.GUILayer.frmABMPrestaciones.resources
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.GUILayer.frmNuevoOdontologo.resources
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.GUILayer.frmOdontologos.resources
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.frmLogin.resources
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.GUILayer.frmPaciente.resources
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.GUILayer.frmPrestacion.resources
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.frmPrincipal.resources
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.Properties.Resources.resources
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.csproj.GenerateResource.cache
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.csproj.CoreCompileInputs.cache
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.exe
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.pdb
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\PAV1_AO_2018.exe.config
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\PAV1_AO_2018.exe
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\PAV1_AO_2018.pdb
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\DSoft.RDLC.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\Microsoft.ReportViewer.WinForms.DLL
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.csproj.CopyComplete
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\Microsoft.ReportViewer.WebDesign.DLL
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\EnvDTE.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\EnvDTE80.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\stdole.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\Microsoft.MSXML.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\de\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\es\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\it\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\de\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\es\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\fr\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\it\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\ja\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\ko\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\pt\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\ru\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.GUILayer.frmReportes.resources
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.GUILayer.Reportes.frmRepPacientesXOdontologo.resources
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.GUILayer.Reportes.frmRepArreglosXPaciente.resources
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.GUILayer.Reportes.frmRepPrestacionesEntreFechas.resources
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.GUILayer.Reportes.frmRepoUsuariosXPerfil.resources
+D:\Mis archivos\UTN\3° Año\Programación de App Visuales I\PROYECTO\Luchi\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.csprojAssemblyReference.cache
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\PAV1_AO_2018.exe.config
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.exe
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.pdb
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\PAV1_AO_2018.exe
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\PAV1_AO_2018.pdb
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\DSoft.RDLC.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\Microsoft.ReportViewer.WebDesign.DLL
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\de\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\es\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\it\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\de\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\es\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\fr\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\it\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\ja\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\ko\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\pt\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\ru\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.csprojResolveAssemblyReference.cache
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.GUILayer.frmReportes.resources
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.BuscarOdontologos.resources
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.frmBuscarPacientes.resources
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.frmHistorialMedico.resources
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.GUILayer.frmABMPacientes.resources
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.GUILayer.frmABMPrestaciones.resources
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.GUILayer.frmNuevoOdontologo.resources
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.GUILayer.frmOdontologos.resources
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.frmLogin.resources
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.GUILayer.frmPaciente.resources
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.GUILayer.frmPrestacion.resources
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.frmPrincipal.resources
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.GUILayer.Reportes.FrmRepCantidadPrestaciones.resources
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.GUILayer.Reportes.frmRepPrestacionesEntreFechas.resources
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.GUILayer.Reportes.frmRepArreglosXPaciente.resources
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.GUILayer.Reportes.frmRepoUsuariosXPerfil.resources
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.GUILayer.Reportes.frmRepPacientesXOdontologo.resources
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.Properties.Resources.resources
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.csproj.GenerateResource.Cache
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\RdlCompile.cache
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\RdlCompile.compiled
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.GUILayer.Reportes.FrmPrestacionesporOdontologo.resources
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.GUILayer.Reportes.FrmIngresoporPrestacion.resources
+C:\Users\Pau-PC\Desktop\PAV1_AO_2018\PAV1_AO_2018\TPS_InicioSesion\obj\Debug\PAV1_AO_2018.GUILayer.Reportes.FrmAportesXOdontolgo.resources

@@ -42,7 +42,13 @@ namespace PAV1_AO_2018
 
         private void btnListo_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(idPaciente);
+            //MessageBox.Show(idPaciente);
+            this.Close();
+        }
+
+        private void dgvClientes_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
         
     }

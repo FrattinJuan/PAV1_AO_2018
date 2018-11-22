@@ -12,6 +12,7 @@ namespace PAV1_AO_2018
 {
     public partial class BuscarOdontologos : Form
     {
+        string idOdontologo = string.Empty;
         public BuscarOdontologos()
         {
             InitializeComponent();
@@ -23,6 +24,35 @@ namespace PAV1_AO_2018
             tabla = BDHelper.getBDHelper().ConsultaSQL("select id_usuario, nombreUsuario, nroMatricula from Usuarios where id_perfil = 2 AND estado = 'S'");
             for (int i = 0; i < tabla.Rows.Count ; i++)
             dgvOdontologos.Rows.Add(tabla.Rows[i][0].ToString(), tabla.Rows[i][1].ToString(), tabla.Rows[i][2].ToString());
+        }
+
+        private void btnListo_Click(object sender, EventArgs e)
+        {
+           // MessageBox.Show(idOdontologo);
+            this.Close();
+            
+        }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void dgvOdontologos_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+        }
+        private void dgvOdontologos_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0)
+            {
+                idOdontologo = dgvOdontologos.Rows[e.RowIndex].Cells[1].Value.ToString();
+
+            }
+        }
+
+        private void BuscarOdontologos_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            this.Close();
         }
     }
 }
